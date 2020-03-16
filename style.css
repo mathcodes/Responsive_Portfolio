@@ -1,8 +1,40 @@
-h1 {
-    color: white;
-    background-color: black;
+.navbar{
+    color:#fff;
+    margin-bottom: 0;
 }
-p {
-    font: small-caps;
-    font-size: larger;
+h1, h2 {
+    color:#fff;
+    background-color: black;
+    margin-top: 0;
+}
+
+button{color:#fff}
+
+h3{
+    text-align: center;
+    color:#fff}
+body{
+background-color:#444;
+align-content:center ;}
+
+   
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+      border-radius: 0px;
+    }
+    
+footer {
+    color:#fff;
+      background-color: #111;
+      padding: 5px;
+    }
+
+  
+#row{
+    text-align: -webkit-center="center"
+}
+
+.container{
+margin: 0;
 }

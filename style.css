@@ -1,85 +1,138 @@
 
-
-
-Demo Specific Styles
-.grid{
-background-color: #111;
-display: grid;
+header{
+ margin: 0px 0px;
 }
 
+
 .page-header{
-  background-color: #222;
+  background-color: #111;
   padding-top:0px;
   margin: 0;
   display: grid;
 }
 
-h1,h2{
-  text-align: center;
-  display: grid;
-  color: #fff;
-}
+
+
 body {
   margin: 0 auto;
-  max-width: 56em;
+  width: auto;
+  margin: 0px 30px; 
   padding: 1em 0;
-  place-self: center;
+  place-self: auto;
   background-color: #111;
   display: grid;
   color: #fff;
 }
-h3{
-  margin: opx;
+.h1,h2{
+  text-align: center;
+  color: #fff;
+  padding-top: 5px; 
+  padding-bottom:5px; 
+  margin: 0px;
+  
   background-color: #111;
+}
+
+
+h3, h4{
+  margin:0px;
   display: grid;
   color: #fff;
   text-align: center;
-  background-color: #222;
+  background-color: #111;
+  align-self: center;
 }
-header,
-main,
-aside,
- {
-  background: #eaeaea;
+header, main, aside {
+ background: #eaeaea;
   display: flex;
   align-items: center;
   justify-self: center ;
-  background-color: #333;
+  background-color: #111;
   margin: 0px;
   display: grid;
   color: #fff;
-}
+  width:auto;
+  border-color:#66883A; 
+  border-width:1; 
+  padding-right: 0px; 
+  padding-left: 0px;
+}">
 
-.row, .row2, .row3{
-  margin: 0px;
+.row{
+  margin: 10px;
   display: grid;
 }
 
 .container{
   padding: 0px;
   display: grid;
-  max-width: 600px;
+  margin: 0px 30px; 
+  background-color: #111;
 }
-footer {
-  background-color: #222;
-  height: 150px;
-  position: inherit;
+.footer {
+  background-color: #111;
+  height: auto;
   justify-self:baseline;
-  
+  position: fixed;
 }
-header{
-  margin:0px;
-  
-}
+
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: #222;
+  background-color: #111;
 }
 .myNavbar{
-  max-width: 600px;
+
+  margin: 0px 30px; 
 }
 
 .navbar{
-  margin: 0px;
+  margin: 0px 0px;
 }
+
+.spanClass {
+  max-width: auto; 
+  color: #fff; 
+}
+
+.images {
+  display: block;
+  margin:top;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+}
+.images-port{
+  height:50px;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
+}
+
+.smallHeader{
+  font-size: inherit; 
+  margin-top: 5px;
+  margin: 0px 0px;
+  padding: 9px ; 
+}
+
+.col-sm-12, .col-sm-6{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+div{
+  color: #fff;
+  background-color: #111;
+}
+
+a{
+  font-size: x-small;
+}
+
+
+.grid{
+  background-color: #333;
+  display: grid;
+  }
